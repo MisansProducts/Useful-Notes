@@ -120,6 +120,8 @@ int main() {
 	sum += response;
 	cout << "The sum is " << sum << endl;
 
+	cout << endl; //Formatting
+
 	//Structure stuff
 	employee alex;
 	alex.name = "Alex";
@@ -139,6 +141,5 @@ int main() {
 void multArr(int* arr, int size, int num) {
 	for (unsigned int i = 0; i < size; i++) {
 		arr[i] *= num;
-		cout << arr[i] << endl;
 	}
 }

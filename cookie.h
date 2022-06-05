@@ -1,5 +1,5 @@
-#ifndef CLASS_Cookie
-#define CLASS_Cookie
+#ifndef COOKIE_H
+#define COOKIE_H
 
 #include <iostream>
 using namespace std;
