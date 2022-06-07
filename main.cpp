@@ -9,6 +9,7 @@ using namespace std;
 
 //======Header Files======
 #include "cookie.h"
+#include "virtual.h"
 
 //======Structures======
 struct employee {
@@ -135,6 +136,17 @@ int main() {
 	myObject.print();
 	myObject.add(var4);
 	myObject.print();
+
+	cout << endl; //Formatting
+
+	//Virtual functions are declared within a base class and are overridden by a derived class
+	Base *basePointer;
+	Derived derived;
+	basePointer = &derived;
+	basePointer->print();
+	basePointer->show();
+
+	return EXIT_SUCCESS;
 }
 
 //======Function Definitions======
